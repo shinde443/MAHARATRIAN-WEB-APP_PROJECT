@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maharashtrian Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- <div class="container"> -->
+            <nav class="navbar">
+                <h2 class="logo-text">महाराष्ट्रियन चव</h2>
+                <img src="" alt="" class="logo">
+                <ul>
+                    <li><b><a href="#overlay">Home</a></b></li>
+                    <li><b><a href="#about">About</a></b></li>
+                    <li><b><a href="#gallary">Gallary</a></b></li>
+                    <li><b><a href="#contact">contact</a></b></li>
+                </ul>
+            </nav>
+    
+<div class="container">
+    <div  id="overlay" class="overlay">
+        <h1>Maharashtrian Recipe App</h1>
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="Enter recipe name...">
+            <button onclick="searchRecipe()">Search</button>
+        </div>
+        <div id="recipes" class="recipes-container"></div>
+        
+        <section  id="gallary" class="gallary">
+        
+        <div class="div_img">
+            <img src="./imges/images/puran poli.jpg" class="xyz">
+            <b>Puran-Poli</b>
+            <p> puran poli is famous  in pune.</p>
+        </div>
+
+        <div class="div_img">
+            <img src="./imges/images/misal_pav.jpg" class="xyz">
+            <b>Misal-Pav</b>
+            <P>Misal is femous in Kolhapur</P>
+        </div>
+        <div class="div_img">
+            <img src="./imges/images/vadapav.jpg" class="xyz">
+            <b>Vada-Pav</b>
+            <P> most femous in Mumbai</P>
+        </div>
+        <div class="div_img">
+            <img src="imges/images/bharli_vangi.jpg" class="xyz">
+            <b>bharali-Vagi</b>
+            <P>femous in kolhapur</P>
+        </div>
+    
+        <div class="div_img">
+            <img src="./imges/images/ukdiche_modak.jpg" class="xyz">
+            <b>Ukadiche Modak</b>
+            <P> Femous in Mumbai and Pune</P>
+        </div>
+        <div class="div_img">
+            <img src="./imges/images/shrikhand.jpg" class="xyz">
+            <b> Shrikhand</b>
+            <p> Famous in Nashik</p>
+        </div>
+
+         <div class="div_img">
+            <img src="./imges/images/poha.jpg" class="xyz">
+            <b>Poha</b>
+            <p> Famous in Nagpur</p>
+        </div>
+         <div class="div_img">
+            <img src="./imges/images/shabu_khichadi.jpg" class="xyz">
+            <b>Shabudana-Khichadi</b>
+            <p>most femous in mumbai</p>
+        </div>
+
+         <div class="div_img">
+            <img src="./imges/images/kothimbir_vadi.jpg" class="xyz">
+            <b>Kothimbar-Vadi</b>
+            <p>mostly homemade </p>
+        </div>
+        <div class="div_img">
+            <img src="./imges/images/thalipeeth.jpg" class="xyz">
+            <b>Thalipeeth</b>
+            <p>most femous in kolhapur</p>
+        </div>
+        </section>
+    </div>
+    
+
+
+    <!-- second page about -->
+
+
+    <header>
+        <h1>About Us</h1>  
+    </header>
+
+    <!-- about section -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="./imges/images/girl.jpg">
+        
+        </div>
+        <div class="about-text">
+            <h2 class="about">committed to always provide the best</h2>
+            <p class="para">we provide the best qulity food with fresh ingredients and amazing taste.
+                our chef are highly exprienced and we always focus on customer satisficatin
+            </p>
+            <ul>
+                <h3><li>Description...</li></h3>
+                <li>🍽️अस्सल रेसिपीज</li>
+                <li>🌱 ताजे साहित्य</li>
+                <li>👨‍🍳 अनुभवी शेफ </li>
+                <li>❤️ घरगुती चव </li>
+            </ul>
+        </div>
+     </section>
+     
+      <section class="stats">
+       
+        <div class="box">
+        <h3>14+</h3>
+        <p>Maharatrian Recipes</p>
+        </div>
+        <div class="box">
+            <h3>20+</h3>
+            <p> Popular Dishes</p>
+        </div>
+        <div class="box">
+            <h3>Easy</h3>
+            <p>Step Guide</p>
+        </div>
+        <div class="box">
+            <h3>24/7</h3>
+            <p>Avaliable</p>
+        </div>
+      </section>
+    </header>     
+        
+    <!-- </section> -->
+    <br>
+
+    <!-- contact page -->
+     <section class="main" id="contact">
+        <div class="box-contact">
+            <h2><b>Contact Us</b></h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Message"></textarea>
+            <button class="contact-btn">send</button>
+        </div>
+
+
+
+        <!-- feedback -->
+         
+  
+         <div class="box feedback">
+            <h2>Feedback</h2>
+            <input type="text" id="fname" placeholder="Your Name">
+            <label>Rating</label>
+            <select id="rating">
+                <option>⭐⭐⭐⭐⭐</option>
+                <option>⭐⭐⭐⭐</option>
+                <option>⭐⭐⭐</option>
+                <option>⭐⭐</option>
+                <option>⭐</option>
+            </select>
+            
+            <textarea id="feedbackMessage" placeholder="your feedback"></textarea>
+            <!-- <input type="checkbox" id="showMsg" hidden>
+            <label for="showMsg" class="feedback-btn">submit</label> -->
+            <button type="button" class="feedback-btn" onclick="showMessage()">submit</button>
+            <p class="successMsg" id="sucessMsg" style="display: none;"> feedback submitted successfully</p>
+            
+     </section>
+    
+
+    
+   
+        
+    
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
