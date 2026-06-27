@@ -1,7 +1,7 @@
 const maharashtrianRecipes = [
     {
         name: "Puran Poli",
-        image:"C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\puran poli.jpg",
+        image:"imges/images/puran poli.jpg",
         ingredients: [
             "Wheat flour",
             "Chana dal",
@@ -13,7 +13,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Misal Pav",
-        image: "C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\misal_pav.jpg",
+        image: "imges/images/misal_pav.jpg",
         ingredients: [
             "Moth beans (matki)",
             "Onions",
@@ -25,7 +25,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Vada Pav",
-        image: "C:\Users\sujata\OneDrive\Documents\GitHub\Maharatria_web_PROJECT\imges\images\vadapav.jpg",
+        image: "imges/images/vadapav.jpg",
         ingredients: [
             "Potatoes",
             "Besan (gram flour)",
@@ -37,7 +37,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Bharli Vangi",
-        image: "C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\bharli_vangi.jpg",
+        image: "imges/images/bharli_vangi.jpg",
         ingredients: [
             "Small brinjals",
             "Peanuts",
@@ -62,7 +62,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Sabudana Khichdi",
-        image:"C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\shabu_khichadi.jpg",
+        image:"imges/images/shabu_khichadi.jpg",
         ingredients: [
             "Sabudana (sago)",
             "Potatoes",
@@ -74,7 +74,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Kothimbir Vadi",
-        image: "images/kothimbir_vadi.jpg",
+        image: "imges/images/kothimbir_vadi.jpg",
         ingredients: [
             "Coriander leaves",
             "Besan (gram flour)",
@@ -86,7 +86,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Thalipeeth",
-        image: "C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\thalipeeth.jpg",
+        image: "imges/images/thalipeeth.jpg",
         ingredients: [
             "Multigrain flour (bhajani)",
             "Onions",
@@ -98,7 +98,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Shrikhand",
-        image: "C:\Users\sujata\OneDrive\Documents\GitHub\MAHARATRIAN WEB APP_PROJECT\imges\images\shrikhand.jpg",
+        image: "imges/images/shrikhand.jpg",
         ingredients: [
             "Hung curd",
             "Powdered sugar",
@@ -110,7 +110,7 @@ const maharashtrianRecipes = [
     },
     {
         name: "Poha",
-        image: "c:\Users\sujata\OneDrive\Desktop\Maharatrian_web_PROJECT\images\poha",
+        image: "imges/images/poha.jpg",
         ingredients: [
             "Flattened rice (poha)",
             "Onions",
